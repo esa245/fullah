@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --font-bengali: "Noto Serif Bengali", serif;
+  --font-siliguri: "Hind Siliguri", sans-serif;
+  --color-primary: #087443;
+  --color-secondary: #045332;
+  --color-accent: #d5a840;
+}
+
+body {
+  font-family: var(--font-siliguri);
+  @apply antialiased text-gray-900;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-bengali);
+}
+
+.section-padding {
+  @apply py-16 md:py-24;
+}
+
+.container-custom {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

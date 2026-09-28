@@ -1,0 +1,6 @@
+{
+  "name": "Zikirullah Foundation",
+  "description": "Zikirullah Foundation - Islamic Social Service, Human Service, Education, Medicine and Social Development.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
